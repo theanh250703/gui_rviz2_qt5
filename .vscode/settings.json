@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.txt": "code-text-binary",
+        "__node_handle": "cpp",
+        "mutex": "cpp",
+        "shared_mutex": "cpp",
+        "__mutex_base": "cpp",
+        "memory": "cpp"
+    }
+}

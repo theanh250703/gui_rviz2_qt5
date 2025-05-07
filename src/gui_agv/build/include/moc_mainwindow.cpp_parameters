@@ -1,0 +1,7 @@
+-I/home/theanh/GUI_AGV/src/gui_agv/include
+-I/home/theanh/GUI_AGV/src/gui_agv/build
+-I/home/theanh/GUI_AGV/src/gui_agv
+-I/home/theanh/GUI_AGV/src/gui_agv/build
+-o
+/home/theanh/GUI_AGV/src/gui_agv/build/include/moc_mainwindow.cpp
+/home/theanh/GUI_AGV/src/gui_agv/include/mainwindow.h
