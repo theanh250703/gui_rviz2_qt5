@@ -12,3 +12,4 @@ ros2 run nav2_map_server map_saver_cli -f ~/maps/map_antue_2
 
 #### NAV2 ####
 ros2 launch agv_test_pkg navigation_launch.py use_sim_time:=false
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
