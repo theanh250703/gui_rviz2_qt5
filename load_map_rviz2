@@ -1,4 +1,12 @@
+####LOAD MAP FOR NAV2 ####
+
 ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=/home/theanh/maps/my_map.yaml
 
 ros2 lifecycle set /map_server configure
 ros2 lifecycle set /map_server activate
+
+
+
+####SAVE MAP #####
+ros2 run nav2_map_server map_saver_cli -f ~/maps/map_antue_2
+
