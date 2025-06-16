@@ -1,7 +1,7 @@
 CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o: \
- /home/theanh/GUI_AGV/src/gui_agv/src/mainwindow.cpp \
+ /home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/theanh/GUI_AGV/src/gui_agv/include/mainwindow.h \
+ /home/theanh/gui_rviz2_qt5/src/gui_agv/include/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -713,20 +713,6 @@ CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/rviz_common/rviz_common/display.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
@@ -850,17 +836,22 @@ CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__type_support.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
  /opt/ros/humble/include/tf2/tf2/buffer_core_interface.hpp \
  /opt/ros/humble/include/tf2/tf2/time.hpp \
@@ -952,7 +943,82 @@ CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o: \
  /opt/ros/humble/include/rviz_common/rviz_common/window_manager_interface.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/Qt \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
- /home/theanh/GUI_AGV/src/gui_agv/build/ui_mainwindow.h \
+ /opt/ros/humble/include/nav2_map_server/map_server.hpp \
+ /opt/ros/humble/include/nav2_util/lifecycle_node.hpp \
+ /opt/ros/humble/include/nav2_util/node_thread.hpp \
+ /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp \
+ /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__builder.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__traits.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__type_support.hpp \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/rcl_lifecycle.h \
+ /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/data_types.h \
+ /opt/ros/humble/include/rcl/rcl/rcl.h \
+ /opt/ros/humble/include/rcl/rcl/init.h \
+ /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/visibility_control.h \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/transition_event.h \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__struct.h \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition__struct.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/state__struct.h \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__functions.h \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h \
+ /opt/ros/humble/include/rcl_lifecycle/rcl_lifecycle/default_state_machine.h \
+ /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/state.hpp \
+ /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/visibility_control.h \
+ /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+ /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/managed_entity.hpp \
+ /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp \
+ /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
+ /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
+ /opt/ros/humble/include/bondcpp/bondcpp/bond.hpp \
+ /opt/ros/humble/include/bond/bond/msg/constants.hpp \
+ /opt/ros/humble/include/bond/bond/msg/detail/constants__struct.hpp \
+ /opt/ros/humble/include/bond/bond/msg/detail/constants__builder.hpp \
+ /opt/ros/humble/include/bond/bond/msg/detail/constants__traits.hpp \
+ /opt/ros/humble/include/bond/bond/msg/detail/constants__type_support.hpp \
+ /opt/ros/humble/include/bond/bond/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/bond/bond/msg/status.hpp \
+ /opt/ros/humble/include/bond/bond/msg/detail/status__struct.hpp \
+ /opt/ros/humble/include/bond/bond/msg/detail/status__builder.hpp \
+ /opt/ros/humble/include/bond/bond/msg/detail/status__traits.hpp \
+ /opt/ros/humble/include/bond/bond/msg/detail/status__type_support.hpp \
+ /opt/ros/humble/include/bondcpp/bondcpp/BondSM_sm.hpp \
+ /opt/ros/humble/include/smclib/smclib/statemap.hpp \
+ /opt/ros/humble/include/bondcpp/bondcpp/visibility_control.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/srv/get_map.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/srv/detail/get_map__builder.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/srv/detail/get_map__traits.hpp \
+ /opt/ros/humble/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.hpp \
+ /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/load_map.hpp \
+ /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/load_map__struct.hpp \
+ /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/load_map__builder.hpp \
+ /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/load_map__traits.hpp \
+ /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.hpp \
+ /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/theanh/gui_rviz2_qt5/src/gui_agv/build/./ui_mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
@@ -963,11 +1029,22 @@ CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDoubleSpinBox \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDoubleSpinBox \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
@@ -976,7 +1053,18 @@ CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListView \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h \
@@ -990,7 +1078,6 @@ CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QScrollArea \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar \
@@ -1005,15 +1092,11 @@ CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtoolbar.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QVector3D \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector3d.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
  /opt/ros/humble/include/rviz_common/rviz_common/tool_manager.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \

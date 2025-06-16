@@ -1,0 +1,27 @@
+[0.191s] Invoking command in '/home/theanh/gui_rviz2_qt5/build/gui_agv': CMAKE_PREFIX_PATH=/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/theanh/gui_rviz2_qt5/build/gui_agv -- -j16 -l16
+[0.239s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui_agv[0m
+[0.256s] [ 12%] Built target gui_agv_autogen
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target gui_agv[0m
+[0.293s] [ 25%] [32mBuilding CXX object CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o[0m
+[5.980s] [ 37%] [32m[1mLinking CXX executable gui_agv[0m
+[7.889s] [100%] Built target gui_agv
+[7.899s] Invoked command in '/home/theanh/gui_rviz2_qt5/build/gui_agv' returned '0': CMAKE_PREFIX_PATH=/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/theanh/gui_rviz2_qt5/build/gui_agv -- -j16 -l16
+[7.907s] Invoking command in '/home/theanh/gui_rviz2_qt5/build/gui_agv': CMAKE_PREFIX_PATH=/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/theanh/gui_rviz2_qt5/build/gui_agv
+[7.914s] -- Install configuration: ""
+[7.914s] -- Execute custom install script
+[7.914s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/ament_index/resource_index/package_run_dependencies/gui_agv
+[7.922s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/ament_index/resource_index/parent_prefix_path/gui_agv
+[7.929s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/ament_prefix_path.sh
+[7.936s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/ament_prefix_path.dsv
+[7.943s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/path.sh
+[7.950s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/path.dsv
+[7.957s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.bash
+[7.964s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.sh
+[7.971s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.zsh
+[7.979s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.dsv
+[7.986s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/package.dsv
+[7.994s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/ament_index/resource_index/packages/gui_agv
+[8.001s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/cmake/gui_agvConfig.cmake
+[8.009s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/cmake/gui_agvConfig-version.cmake
+[8.016s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/package.xml
+[8.025s] Invoked command in '/home/theanh/gui_rviz2_qt5/build/gui_agv' returned '0': CMAKE_PREFIX_PATH=/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/theanh/gui_rviz2_qt5/build/gui_agv

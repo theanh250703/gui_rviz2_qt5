@@ -29,6 +29,7 @@ find_package(rviz_common REQUIRED)
 find_package(rviz_default_plugins REQUIRED)
 find_package(rviz_ogre_vendor REQUIRED)
 find_package(rviz_rendering REQUIRED)
+find_package(nav2_map_server REQUIRED)
 
 
 # Tìm các tệp nguồn, tiêu đề, UI và tài nguyên
@@ -70,7 +71,14 @@ ament_target_dependencies(${PROJECT_NAME}
   rviz_default_plugins
   rviz_ogre_vendor
   rviz_rendering
+  nav2_map_server
 )
+
+
+install(DIRECTORY
+    # config
+    # launch
+    DESTINATION share/${PROJECT_NAME})
 
 # Kiểm tra build
 if(BUILD_TESTING)

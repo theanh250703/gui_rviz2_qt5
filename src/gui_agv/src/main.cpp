@@ -1,17 +1,17 @@
-#include "mainwindow.h"
 #include <QApplication>
+#include "mainwindow.h"
 
-
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
 
     QApplication app(argc, argv);
-    MainWindow w(&app);
-    w.show();
+    MainWindow window(&app);
+    window.show();
 
-    int result = app.exec();
+    int ret = app.exec();
+
+    // Shutdown ROS2 sau Qt
     rclcpp::shutdown();
-
-    return result;
+    return ret;
 }

@@ -1,0 +1,69 @@
+[0.008s] Invoking command in '/home/theanh/gui_rviz2_qt5/build/gui_agv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/theanh/gui_rviz2_qt5/src/gui_agv -DCMAKE_INSTALL_PREFIX=/home/theanh/gui_rviz2_qt5/install/gui_agv
+[0.018s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.120s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.135s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.136s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.140s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.177s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.178s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.190s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.222s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.231s] -- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)
+[0.233s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.236s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.237s] -- Found OGRE
+[0.237s] --   static     : OFF
+[0.237s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.237s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.237s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.237s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.237s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.237s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.237s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.237s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.238s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.238s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.238s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.297s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.333s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.395s] -- Found rviz_default_plugins: 11.2.16 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[0.452s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.503s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.503s] -- Configured cppcheck include dirs: /home/theanh/gui_rviz2_qt5/src/gui_agv/include
+[0.503s] -- Configured cppcheck exclude dirs and/or files: 
+[0.504s] -- Added test 'lint_cmake' to check CMake code style
+[0.504s] -- Added test 'uncrustify' to check C / C++ code style
+[0.504s] -- Configured uncrustify additional arguments: 
+[0.504s] -- Added test 'xmllint' to check XML markup files
+[0.505s] -- Configuring done
+[0.536s] -- Generating done
+[0.540s] -- Build files have been written to: /home/theanh/gui_rviz2_qt5/build/gui_agv
+[0.549s] Invoked command in '/home/theanh/gui_rviz2_qt5/build/gui_agv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/theanh/gui_rviz2_qt5/src/gui_agv -DCMAKE_INSTALL_PREFIX=/home/theanh/gui_rviz2_qt5/install/gui_agv
+[0.551s] Invoking command in '/home/theanh/gui_rviz2_qt5/build/gui_agv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/theanh/gui_rviz2_qt5/build/gui_agv -- -j16 -l16
+[0.591s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui_agv[0m
+[0.608s] [ 12%] Built target gui_agv_autogen
+[0.721s] [35m[1mConsolidate compiler generated dependencies of target gui_agv[0m
+[0.752s] [100%] Built target gui_agv
+[0.762s] Invoked command in '/home/theanh/gui_rviz2_qt5/build/gui_agv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/theanh/gui_rviz2_qt5/build/gui_agv -- -j16 -l16
+[0.770s] Invoking command in '/home/theanh/gui_rviz2_qt5/build/gui_agv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/theanh/gui_rviz2_qt5/build/gui_agv
+[0.775s] -- Install configuration: ""
+[0.775s] -- Execute custom install script
+[0.775s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/ament_index/resource_index/package_run_dependencies/gui_agv
+[0.776s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/ament_index/resource_index/parent_prefix_path/gui_agv
+[0.776s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/ament_prefix_path.sh
+[0.776s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/ament_prefix_path.dsv
+[0.776s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/path.sh
+[0.776s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/path.dsv
+[0.776s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.bash
+[0.776s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.sh
+[0.776s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.zsh
+[0.776s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.dsv
+[0.777s] -- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/package.dsv
+[0.784s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/ament_index/resource_index/packages/gui_agv
+[0.784s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/cmake/gui_agvConfig.cmake
+[0.784s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/cmake/gui_agvConfig-version.cmake
+[0.784s] -- Up-to-date symlink: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/package.xml
+[0.786s] Invoked command in '/home/theanh/gui_rviz2_qt5/build/gui_agv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/theanh/gui_rviz2_qt5/build/gui_agv

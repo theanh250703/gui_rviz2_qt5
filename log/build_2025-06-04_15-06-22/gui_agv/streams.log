@@ -1,0 +1,131 @@
+[0.008s] Invoking command in '/home/theanh/gui_rviz2_qt5/build/gui_agv': CMAKE_PREFIX_PATH=/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/theanh/gui_rviz2_qt5/src/gui_agv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/theanh/gui_rviz2_qt5/install/gui_agv
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.161s] -- Detecting C compile features - done
+[0.163s] -- Detecting CXX compiler ABI info
+[0.226s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.232s] -- Detecting CXX compile features - done
+[0.235s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.348s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.396s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.438s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.468s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.540s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.556s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.564s] -- Looking for pthread.h
+[0.621s] -- Looking for pthread.h - found
+[0.622s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.681s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.681s] -- Found Threads: TRUE  
+[0.720s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.730s] -- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)
+[0.735s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.741s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.742s] -- Found OGRE
+[0.742s] --   static     : OFF
+[0.742s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.742s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.742s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.742s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.742s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.742s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.742s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.742s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.742s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.742s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.742s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.759s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.762s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.831s] -- Found X11: /usr/include   
+[0.832s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.891s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.891s] -- Looking for gethostbyname
+[0.948s] -- Looking for gethostbyname - found
+[0.948s] -- Looking for connect
+[1.003s] -- Looking for connect - found
+[1.004s] -- Looking for remove
+[1.061s] -- Looking for remove - found
+[1.061s] -- Looking for shmat
+[1.117s] -- Looking for shmat - found
+[1.117s] -- Looking for IceConnectionNumber in ICE
+[1.174s] -- Looking for IceConnectionNumber in ICE - found
+[1.251s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.308s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.309s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.392s] -- Found rviz_default_plugins: 11.2.16 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[1.460s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.526s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.526s] -- Configured cppcheck include dirs: /home/theanh/gui_rviz2_qt5/src/gui_agv/include
+[1.526s] -- Configured cppcheck exclude dirs and/or files: 
+[1.528s] -- Added test 'lint_cmake' to check CMake code style
+[1.534s] -- Added test 'uncrustify' to check C / C++ code style
+[1.534s] -- Configured uncrustify additional arguments: 
+[1.535s] -- Added test 'xmllint' to check XML markup files
+[1.536s] -- Configuring done
+[1.568s] -- Generating done
+[1.572s] -- Build files have been written to: /home/theanh/gui_rviz2_qt5/build/gui_agv
+[1.583s] Invoked command in '/home/theanh/gui_rviz2_qt5/build/gui_agv' returned '0': CMAKE_PREFIX_PATH=/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/theanh/gui_rviz2_qt5/src/gui_agv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/theanh/gui_rviz2_qt5/install/gui_agv
+[1.585s] Invoking command in '/home/theanh/gui_rviz2_qt5/build/gui_agv': CMAKE_PREFIX_PATH=/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/theanh/gui_rviz2_qt5/build/gui_agv -- -j16 -l16
+[1.628s] [ 12%] [34m[1mAutomatic MOC and UIC for target gui_agv[0m
+[1.653s] [ 12%] Built target gui_agv_autogen
+[1.661s] [ 37%] [34m[1mGenerating ui_mainwindow.h[0m
+[1.661s] [ 37%] [34m[1mGenerating include/moc_mainwindow.cpp[0m
+[1.681s] [ 87%] [32mBuilding CXX object CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o[0m
+[1.681s] [ 87%] [32mBuilding CXX object CMakeFiles/gui_agv.dir/include/moc_mainwindow.cpp.o[0m
+[1.681s] [ 87%] [32mBuilding CXX object CMakeFiles/gui_agv.dir/src/main.cpp.o[0m
+[1.682s] [ 87%] [32mBuilding CXX object CMakeFiles/gui_agv.dir/gui_agv_autogen/mocs_compilation.cpp.o[0m
+[4.988s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[4.988s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:146:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+[4.988s]   146 |             [01;31m[KSendCommand[m[K();
+[4.988s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.988s]       |             [32m[KSendCommand_Vel[m[K
+[4.995s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[4.996s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:152:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+[4.996s]   152 |             [01;31m[KSendCommand[m[K();
+[4.996s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.996s]       |             [32m[KSendCommand_Vel[m[K
+[5.003s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[5.003s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:158:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+[5.003s]   158 |             [01;31m[KSendCommand[m[K();
+[5.003s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.003s]       |             [32m[KSendCommand_Vel[m[K
+[5.010s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[5.010s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:164:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+[5.010s]   164 |             [01;31m[KSendCommand[m[K();
+[5.010s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.011s]       |             [32m[KSendCommand_Vel[m[K
+[5.018s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[5.018s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:170:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+[5.018s]   170 |             [01;31m[KSendCommand[m[K();
+[5.018s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.018s]       |             [32m[KSendCommand_Vel[m[K
+[5.025s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[5.026s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:176:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+[5.026s]   176 |             [01;31m[KSendCommand[m[K();
+[5.026s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.026s]       |             [32m[KSendCommand_Vel[m[K
+[5.033s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[5.033s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:182:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+[5.033s]   182 |             [01;31m[KSendCommand[m[K();
+[5.033s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.033s]       |             [32m[KSendCommand_Vel[m[K
+[5.040s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[5.040s] [01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:188:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+[5.040s]   188 |             [01;31m[KSendCommand[m[K();
+[5.040s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[5.040s]       |             [32m[KSendCommand_Vel[m[K
+[6.171s] gmake[2]: *** [CMakeFiles/gui_agv.dir/build.make:112: CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o] Error 1
+[6.171s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui_agv.dir/all] Error 2
+[6.171s] gmake: *** [Makefile:146: all] Error 2
+[6.173s] Invoked command in '/home/theanh/gui_rviz2_qt5/build/gui_agv' returned '2': CMAKE_PREFIX_PATH=/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/theanh/gui_rviz2_qt5/build/gui_agv -- -j16 -l16

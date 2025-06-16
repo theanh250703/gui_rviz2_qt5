@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (gui_agv) JobQueued: {'identifier': 'gui_agv', 'dependencies': OrderedDict()}
+[0.000535] (gui_agv) JobStarted: {'identifier': 'gui_agv'}
+[0.006608] (gui_agv) JobProgress: {'identifier': 'gui_agv', 'progress': 'cmake'}
+[0.007150] (gui_agv) Command: {'cmd': ['/usr/bin/cmake', '/home/theanh/gui_rviz2_qt5/src/gui_agv', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/theanh/gui_rviz2_qt5/install/gui_agv'], 'cwd': '/home/theanh/gui_rviz2_qt5/build/gui_agv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theanh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/theanh'), ('OLDPWD', '/home/theanh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '287420'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/theanh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theanh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'theanh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/theanh:@/tmp/.ICE-unix/2366,unix/theanh:/tmp/.ICE-unix/2366'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d21a84ae_9961_4cf5_9f66_990c0213d678'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.289'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theanh/gui_rviz2_qt5/build/gui_agv'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theanh/ros2_ws/build/my_robot_controller:/home/theanh/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.051747] (gui_agv) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094286] (gui_agv) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099753] (-) TimerEvent: {}
+[0.099897] (gui_agv) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.156055] (gui_agv) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.161000] (gui_agv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.161194] (gui_agv) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.161472] (gui_agv) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.163591] (gui_agv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199853] (-) TimerEvent: {}
+[0.226898] (gui_agv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.232495] (gui_agv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.232678] (gui_agv) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.232988] (gui_agv) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.235439] (gui_agv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299937] (-) TimerEvent: {}
+[0.348393] (gui_agv) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.396040] (gui_agv) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.399997] (-) TimerEvent: {}
+[0.438298] (gui_agv) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.468102] (gui_agv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.472798] (gui_agv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.479795] (gui_agv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.489349] (gui_agv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500081] (-) TimerEvent: {}
+[0.502141] (gui_agv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.538012] (gui_agv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.540398] (gui_agv) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.556810] (gui_agv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.564225] (gui_agv) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600195] (-) TimerEvent: {}
+[0.621913] (gui_agv) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.622117] (gui_agv) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.681045] (gui_agv) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.681741] (gui_agv) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700267] (-) TimerEvent: {}
+[0.720471] (gui_agv) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.730381] (gui_agv) StdoutLine: {'line': b'-- Found rviz_common: 11.2.16 (/opt/ros/humble/share/rviz_common/cmake)\n'}
+[0.735242] (gui_agv) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[0.741385] (gui_agv) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[0.742200] (gui_agv) StdoutLine: {'line': b'-- Found OGRE\n'}
+[0.742280] (gui_agv) StdoutLine: {'line': b'--   static     : OFF\n'}
+[0.742375] (gui_agv) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[0.742436] (gui_agv) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.742486] (gui_agv) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[0.742533] (gui_agv) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[0.742587] (gui_agv) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[0.742634] (gui_agv) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[0.742680] (gui_agv) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[0.742768] (gui_agv) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.742827] (gui_agv) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[0.742873] (gui_agv) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.742916] (gui_agv) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[0.759743] (gui_agv) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.762761] (gui_agv) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.800352] (-) TimerEvent: {}
+[0.831889] (gui_agv) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.832071] (gui_agv) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.891336] (gui_agv) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.891516] (gui_agv) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.900421] (-) TimerEvent: {}
+[0.948503] (gui_agv) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.948681] (gui_agv) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.000528] (-) TimerEvent: {}
+[1.003846] (gui_agv) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.004008] (gui_agv) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.061009] (gui_agv) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.061186] (gui_agv) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.100623] (-) TimerEvent: {}
+[1.116913] (gui_agv) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.117125] (gui_agv) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.174301] (gui_agv) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.200693] (-) TimerEvent: {}
+[1.251904] (gui_agv) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.300806] (-) TimerEvent: {}
+[1.308904] (gui_agv) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.309056] (gui_agv) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.392484] (gui_agv) StdoutLine: {'line': b'-- Found rviz_default_plugins: 11.2.16 (/opt/ros/humble/share/rviz_default_plugins/cmake)\n'}
+[1.401170] (-) TimerEvent: {}
+[1.460858] (gui_agv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.501278] (-) TimerEvent: {}
+[1.526342] (gui_agv) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.526517] (gui_agv) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/theanh/gui_rviz2_qt5/src/gui_agv/include\n'}
+[1.526576] (gui_agv) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.528816] (gui_agv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.534724] (gui_agv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.534833] (gui_agv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.535664] (gui_agv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.536860] (gui_agv) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.568191] (gui_agv) StdoutLine: {'line': b'-- Generating done\n'}
+[1.572249] (gui_agv) StdoutLine: {'line': b'-- Build files have been written to: /home/theanh/gui_rviz2_qt5/build/gui_agv\n'}
+[1.583015] (gui_agv) CommandEnded: {'returncode': 0}
+[1.583603] (gui_agv) JobProgress: {'identifier': 'gui_agv', 'progress': 'build'}
+[1.584736] (gui_agv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/theanh/gui_rviz2_qt5/build/gui_agv', '--', '-j16', '-l16'], 'cwd': '/home/theanh/gui_rviz2_qt5/build/gui_agv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'theanh'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/theanh'), ('OLDPWD', '/home/theanh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '287420'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/theanh/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'theanh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'theanh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/theanh:@/tmp/.ICE-unix/2366,unix/theanh:/tmp/.ICE-unix/2366'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d21a84ae_9961_4cf5_9f66_990c0213d678'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.289'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/theanh/gui_rviz2_qt5/build/gui_agv'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/theanh/ros2_ws/build/my_robot_controller:/home/theanh/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/theanh/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[1.601375] (-) TimerEvent: {}
+[1.627898] (gui_agv) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target gui_agv\x1b[0m\n'}
+[1.653510] (gui_agv) StdoutLine: {'line': b'[ 12%] Built target gui_agv_autogen\n'}
+[1.661596] (gui_agv) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating ui_mainwindow.h\x1b[0m\n'}
+[1.661781] (gui_agv) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating include/moc_mainwindow.cpp\x1b[0m\n'}
+[1.681755] (gui_agv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o\x1b[0m\n'}
+[1.681917] (gui_agv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/gui_agv.dir/include/moc_mainwindow.cpp.o\x1b[0m\n'}
+[1.681967] (gui_agv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/gui_agv.dir/src/main.cpp.o\x1b[0m\n'}
+[1.682016] (gui_agv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/gui_agv.dir/gui_agv_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.701472] (-) TimerEvent: {}
+[1.801741] (-) TimerEvent: {}
+[1.902009] (-) TimerEvent: {}
+[2.002275] (-) TimerEvent: {}
+[2.102569] (-) TimerEvent: {}
+[2.202900] (-) TimerEvent: {}
+[2.303186] (-) TimerEvent: {}
+[2.403489] (-) TimerEvent: {}
+[2.503805] (-) TimerEvent: {}
+[2.604079] (-) TimerEvent: {}
+[2.704350] (-) TimerEvent: {}
+[2.804633] (-) TimerEvent: {}
+[2.904906] (-) TimerEvent: {}
+[3.005168] (-) TimerEvent: {}
+[3.105434] (-) TimerEvent: {}
+[3.205712] (-) TimerEvent: {}
+[3.305994] (-) TimerEvent: {}
+[3.406263] (-) TimerEvent: {}
+[3.506526] (-) TimerEvent: {}
+[3.606791] (-) TimerEvent: {}
+[3.707093] (-) TimerEvent: {}
+[3.807394] (-) TimerEvent: {}
+[3.907689] (-) TimerEvent: {}
+[4.007972] (-) TimerEvent: {}
+[4.108253] (-) TimerEvent: {}
+[4.208506] (-) TimerEvent: {}
+[4.308768] (-) TimerEvent: {}
+[4.409036] (-) TimerEvent: {}
+[4.509310] (-) TimerEvent: {}
+[4.609587] (-) TimerEvent: {}
+[4.709878] (-) TimerEvent: {}
+[4.810149] (-) TimerEvent: {}
+[4.910423] (-) TimerEvent: {}
+[4.988335] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[4.988509] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:146:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSendCommand\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSendCommand_Vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.988560] (gui_agv) StderrLine: {'line': b'  146 |             \x1b[01;31m\x1b[KSendCommand\x1b[m\x1b[K();\n'}
+[4.988612] (gui_agv) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.988658] (gui_agv) StderrLine: {'line': b'      |             \x1b[32m\x1b[KSendCommand_Vel\x1b[m\x1b[K\n'}
+[4.995924] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[4.996067] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:152:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSendCommand\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSendCommand_Vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.996115] (gui_agv) StderrLine: {'line': b'  152 |             \x1b[01;31m\x1b[KSendCommand\x1b[m\x1b[K();\n'}
+[4.996157] (gui_agv) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.996195] (gui_agv) StderrLine: {'line': b'      |             \x1b[32m\x1b[KSendCommand_Vel\x1b[m\x1b[K\n'}
+[5.003257] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.003437] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:158:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSendCommand\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSendCommand_Vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.003503] (gui_agv) StderrLine: {'line': b'  158 |             \x1b[01;31m\x1b[KSendCommand\x1b[m\x1b[K();\n'}
+[5.003550] (gui_agv) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.003596] (gui_agv) StderrLine: {'line': b'      |             \x1b[32m\x1b[KSendCommand_Vel\x1b[m\x1b[K\n'}
+[5.010518] (-) TimerEvent: {}
+[5.010765] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.010877] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:164:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSendCommand\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSendCommand_Vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.010935] (gui_agv) StderrLine: {'line': b'  164 |             \x1b[01;31m\x1b[KSendCommand\x1b[m\x1b[K();\n'}
+[5.010981] (gui_agv) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.011024] (gui_agv) StderrLine: {'line': b'      |             \x1b[32m\x1b[KSendCommand_Vel\x1b[m\x1b[K\n'}
+[5.018170] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.018340] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:170:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSendCommand\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSendCommand_Vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.018414] (gui_agv) StderrLine: {'line': b'  170 |             \x1b[01;31m\x1b[KSendCommand\x1b[m\x1b[K();\n'}
+[5.018462] (gui_agv) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.018508] (gui_agv) StderrLine: {'line': b'      |             \x1b[32m\x1b[KSendCommand_Vel\x1b[m\x1b[K\n'}
+[5.025854] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.026030] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:176:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSendCommand\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSendCommand_Vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.026089] (gui_agv) StderrLine: {'line': b'  176 |             \x1b[01;31m\x1b[KSendCommand\x1b[m\x1b[K();\n'}
+[5.026136] (gui_agv) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.026199] (gui_agv) StderrLine: {'line': b'      |             \x1b[32m\x1b[KSendCommand_Vel\x1b[m\x1b[K\n'}
+[5.033009] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.033143] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:182:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSendCommand\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSendCommand_Vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.033204] (gui_agv) StderrLine: {'line': b'  182 |             \x1b[01;31m\x1b[KSendCommand\x1b[m\x1b[K();\n'}
+[5.033253] (gui_agv) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.033303] (gui_agv) StderrLine: {'line': b'      |             \x1b[32m\x1b[KSendCommand_Vel\x1b[m\x1b[K\n'}
+[5.040113] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.040255] (gui_agv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:188:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSendCommand\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KSendCommand_Vel\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.040305] (gui_agv) StderrLine: {'line': b'  188 |             \x1b[01;31m\x1b[KSendCommand\x1b[m\x1b[K();\n'}
+[5.040345] (gui_agv) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.040383] (gui_agv) StderrLine: {'line': b'      |             \x1b[32m\x1b[KSendCommand_Vel\x1b[m\x1b[K\n'}
+[5.110630] (-) TimerEvent: {}
+[5.210911] (-) TimerEvent: {}
+[5.311189] (-) TimerEvent: {}
+[5.411482] (-) TimerEvent: {}
+[5.511787] (-) TimerEvent: {}
+[5.612088] (-) TimerEvent: {}
+[5.712360] (-) TimerEvent: {}
+[5.812617] (-) TimerEvent: {}
+[5.912905] (-) TimerEvent: {}
+[6.013174] (-) TimerEvent: {}
+[6.113445] (-) TimerEvent: {}
+[6.170951] (gui_agv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gui_agv.dir/build.make:112: CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o] Error 1\n'}
+[6.171150] (gui_agv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui_agv.dir/all] Error 2\n'}
+[6.171369] (gui_agv) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.173652] (gui_agv) CommandEnded: {'returncode': 2}
+[6.179232] (gui_agv) JobEnded: {'identifier': 'gui_agv', 'rc': 2}
+[6.189639] (-) EventReactorShutdown: {}

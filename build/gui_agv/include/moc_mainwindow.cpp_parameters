@@ -1,0 +1,7 @@
+-I/home/theanh/gui_rviz2_qt5/src/gui_agv/include
+-I/home/theanh/gui_rviz2_qt5/build/gui_agv
+-I/home/theanh/gui_rviz2_qt5/src/gui_agv
+-I/home/theanh/gui_rviz2_qt5/build/gui_agv
+-o
+/home/theanh/gui_rviz2_qt5/build/gui_agv/include/moc_mainwindow.cpp
+/home/theanh/gui_rviz2_qt5/src/gui_agv/include/mainwindow.h

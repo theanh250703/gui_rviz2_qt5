@@ -1,0 +1,43 @@
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:146:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+  146 |             [01;31m[KSendCommand[m[K();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KSendCommand_Vel[m[K
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:152:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+  152 |             [01;31m[KSendCommand[m[K();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KSendCommand_Vel[m[K
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:158:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+  158 |             [01;31m[KSendCommand[m[K();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KSendCommand_Vel[m[K
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:164:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+  164 |             [01;31m[KSendCommand[m[K();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KSendCommand_Vel[m[K
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:170:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+  170 |             [01;31m[KSendCommand[m[K();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KSendCommand_Vel[m[K
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:176:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+  176 |             [01;31m[KSendCommand[m[K();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KSendCommand_Vel[m[K
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:182:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+  182 |             [01;31m[KSendCommand[m[K();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KSendCommand_Vel[m[K
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:[m[K In lambda function:
+[01m[K/home/theanh/gui_rviz2_qt5/src/gui_agv/src/mainwindow.cpp:188:13:[m[K [01;31m[Kerror: [m[K‘[01m[KSendCommand[m[K’ was not declared in this scope; did you mean ‘[01m[KSendCommand_Vel[m[K’?
+  188 |             [01;31m[KSendCommand[m[K();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[KSendCommand_Vel[m[K
+gmake[2]: *** [CMakeFiles/gui_agv.dir/build.make:112: CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/gui_agv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

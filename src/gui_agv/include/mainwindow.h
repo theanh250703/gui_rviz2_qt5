@@ -1,11 +1,8 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-
 #include <QMainWindow>
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
-#include "geometry_msgs/msg/twist.hpp"
 
 #include "rviz_common/display.hpp"
 #include "rviz_common/render_panel.hpp"
@@ -14,12 +11,18 @@
 #include "rviz_common/visualization_manager.hpp"
 #include "rviz_common/window_manager_interface.hpp"
 
-QT_BEGIN_NAMESPACE
-namespace Ui 
-{  
-    class MainWindow; 
-}
 
+#include <nav2_map_server/map_server.hpp>
+#include <rclcpp/executors.hpp>
+#include <memory>
+#include <QProcess>
+
+#include "std_msgs/msg/string.hpp"
+
+
+
+QT_BEGIN_NAMESPACE
+namespace Ui { class MainWindow; }
 namespace rviz_common
 {
     class Display;
@@ -33,44 +36,55 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(QApplication * app, QWidget *parent = nullptr);
+    MainWindow(QApplication *app, QWidget *parent = nullptr);
     ~MainWindow();
 
-    std::shared_ptr<rviz_common::RenderPanel> _render_panel;
+    void initial();
+    void setupRobotModelDisplay();
+    void setmap();
+    void setView(const QString &view_mode);
+    void set_nav();
 
-    void initializeRViz();
+    void select_table();
+    void move_table();
+    void move_finish();
 
-    // QWidget * getParentWindow() override;
-    // rviz_common::PanelDockWidget * addPane(const QString & name, QWidget * pane, Qt::DockWidgetArea area, bool floating) override;
-    // void setStatus(const QString & message) override;
-
-public slots:
-    void updateRos();
-    void Control_Robot();
-    void SendCommand_Vel();
-    
-    // void closeEvent(QCloseEvent *event);
+    // SLAM
+    void start_slam();
+    // void quit_slam();
+    // void save_map();
 
 private:
     Ui::MainWindow *ui;
-    rclcpp::Node::SharedPtr node;
-    bool control_enable = true;
-
-
-    // rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub;
-    // rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub;
-    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_send_vel;
-    geometry_msgs::msg::Twist currentTwist;
-
-    
     QApplication * _app;
 
     std::shared_ptr<rviz_common::ros_integration::RosNodeAbstraction> _rvizRosNodeTmp;
     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr _rvizRosNode;
-    std::shared_ptr<rviz_common::VisualizationManager> _manager;
     
-    rviz_common::Display * _grid;
-    rviz_common::Display * _scan;
-};
+    std::shared_ptr<rviz_common::VisualizationManager> _manager;
+    std::shared_ptr<rviz_common::RenderPanel> _render_panel;
 
+
+    rviz_common::Display * _grid;
+    rviz_common::Display * _pointcloud;
+    rviz_common::Display * robot_model_display;
+    rviz_common::Display * path;
+    rviz_common::Display * map_display;
+
+    QProcess *robot_process = nullptr;
+    QProcess *localization_process = nullptr;
+    QProcess *navigation_process = nullptr;
+    QProcess *slam_process = nullptr;
+
+    rviz_common::Tool *initial_pose_tool = nullptr;
+    rviz_common::Tool *nav_goal_tool = nullptr;
+
+    QStringList table_list;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr table_publisher;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr finish_publisher;
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr confirm;
+
+    void confirm_callback(const std_msgs::msg::String::SharedPtr msg);
+
+};
 #endif // MAINWINDOW_H

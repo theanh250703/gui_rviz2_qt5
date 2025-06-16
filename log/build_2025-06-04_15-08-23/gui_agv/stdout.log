@@ -1,0 +1,23 @@
+[ 12%] [34m[1mAutomatic MOC and UIC for target gui_agv[0m
+[ 12%] Built target gui_agv_autogen
+[35m[1mConsolidate compiler generated dependencies of target gui_agv[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable gui_agv[0m
+[100%] Built target gui_agv
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/ament_index/resource_index/package_run_dependencies/gui_agv
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/ament_index/resource_index/parent_prefix_path/gui_agv
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/ament_prefix_path.sh
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/ament_prefix_path.dsv
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/path.sh
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/environment/path.dsv
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.bash
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.sh
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.zsh
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/local_setup.dsv
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/package.dsv
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/ament_index/resource_index/packages/gui_agv
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/cmake/gui_agvConfig.cmake
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/cmake/gui_agvConfig-version.cmake
+-- Symlinking: /home/theanh/gui_rviz2_qt5/install/gui_agv/share/gui_agv/package.xml
