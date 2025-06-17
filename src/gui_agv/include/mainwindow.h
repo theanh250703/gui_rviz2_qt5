@@ -40,6 +40,8 @@ public:
     ~MainWindow();
 
     void initial();
+    void Control_Robot_Manual();
+    void SendCommand_Vel();
     void setupRobotModelDisplay();
     void setmap();
     void setView(const QString &view_mode);
@@ -47,16 +49,22 @@ public:
 
     void select_table();
     void move_table();
+    void remove_table();
     void move_finish();
 
     // SLAM
     void start_slam();
-    // void quit_slam();
-    // void save_map();
+    void quit_slam();
+    void save_map();
+
+    // void delete_map();
 
 private:
     Ui::MainWindow *ui;
     QApplication * _app;
+
+    bool control_enable = true;
+    geometry_msgs::msg::Twist currentTwist;
 
     std::shared_ptr<rviz_common::ros_integration::RosNodeAbstraction> _rvizRosNodeTmp;
     rviz_common::ros_integration::RosNodeAbstractionIface::WeakPtr _rvizRosNode;
@@ -75,6 +83,7 @@ private:
     QProcess *localization_process = nullptr;
     QProcess *navigation_process = nullptr;
     QProcess *slam_process = nullptr;
+    QProcess *save_map_process = nullptr;
 
     rviz_common::Tool *initial_pose_tool = nullptr;
     rviz_common::Tool *nav_goal_tool = nullptr;
@@ -82,7 +91,9 @@ private:
     QStringList table_list;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr table_publisher;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr finish_publisher;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr vel_publisher;
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr confirm;
+
 
     void confirm_callback(const std_msgs::msg::String::SharedPtr msg);
 

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1129</width>
+    <width>1151</width>
     <height>881</height>
    </rect>
   </property>
@@ -137,7 +137,7 @@
               <rect>
                <x>0</x>
                <y>0</y>
-               <width>547</width>
+               <width>558</width>
                <height>672</height>
               </rect>
              </property>
@@ -146,7 +146,7 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>551</width>
+                <width>561</width>
                 <height>341</height>
                </rect>
               </property>
@@ -154,7 +154,7 @@
                <enum>QTabWidget::Triangular</enum>
               </property>
               <property name="currentIndex">
-               <number>3</number>
+               <number>2</number>
               </property>
               <widget class="QWidget" name="tab">
                <attribute name="title">
@@ -224,7 +224,7 @@
                <attribute name="title">
                 <string>Tab 2</string>
                </attribute>
-               <widget class="QWidget" name="">
+               <widget class="QWidget" name="layoutWidget">
                 <property name="geometry">
                  <rect>
                   <x>80</x>
@@ -563,7 +563,7 @@
                  <item>
                   <layout class="QVBoxLayout" name="verticalLayout_11">
                    <item>
-                    <widget class="QListView" name="listView"/>
+                    <widget class="QListWidget" name="listWidget"/>
                    </item>
                    <item>
                     <widget class="QPushButton" name="pushButton_18">
@@ -584,89 +584,129 @@
                <widget class="QWidget" name="">
                 <property name="geometry">
                  <rect>
-                  <x>70</x>
-                  <y>50</y>
-                  <width>421</width>
-                  <height>64</height>
+                  <x>74</x>
+                  <y>56</y>
+                  <width>424</width>
+                  <height>135</height>
                  </rect>
                 </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_22">
+                <layout class="QVBoxLayout" name="verticalLayout_19">
                  <item>
-                  <layout class="QVBoxLayout" name="verticalLayout_16">
+                  <layout class="QHBoxLayout" name="horizontalLayout_23">
                    <item>
-                    <layout class="QHBoxLayout" name="horizontalLayout_19">
+                    <layout class="QVBoxLayout" name="verticalLayout_18">
                      <item>
-                      <widget class="QPushButton" name="pushButton_5">
-                       <property name="text">
-                        <string>Start SLAM</string>
-                       </property>
-                      </widget>
+                      <layout class="QHBoxLayout" name="horizontalLayout_19">
+                       <item>
+                        <widget class="QPushButton" name="pushButton_5">
+                         <property name="text">
+                          <string>Start SLAM</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="pushButton_24">
+                         <property name="text">
+                          <string>Quit SLAM</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
                      </item>
                      <item>
-                      <widget class="QPushButton" name="pushButton_24">
-                       <property name="text">
-                        <string>Quit SLAM</string>
-                       </property>
-                      </widget>
+                      <layout class="QHBoxLayout" name="horizontalLayout_22">
+                       <item>
+                        <widget class="QPushButton" name="pushButton_25">
+                         <property name="text">
+                          <string>Save map</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QPushButton" name="pushButton_26">
+                         <property name="text">
+                          <string>Delete map</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
                      </item>
                     </layout>
                    </item>
                    <item>
-                    <widget class="QPushButton" name="pushButton_25">
-                     <property name="text">
-                      <string>Save map</string>
-                     </property>
-                    </widget>
+                    <layout class="QVBoxLayout" name="verticalLayout_16">
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_20">
+                       <item>
+                        <widget class="QLabel" name="label_8">
+                         <property name="text">
+                          <string>map's name:</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLineEdit" name="lineEdit"/>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_21">
+                       <item>
+                        <widget class="QLabel" name="label_9">
+                         <property name="text">
+                          <string>saved map</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QComboBox" name="comboBox_3">
+                         <item>
+                          <property name="text">
+                           <string/>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>map1</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>map2</string>
+                          </property>
+                         </item>
+                         <item>
+                          <property name="text">
+                           <string>map3</string>
+                          </property>
+                         </item>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
                    </item>
                   </layout>
                  </item>
                  <item>
-                  <layout class="QVBoxLayout" name="verticalLayout_18">
-                   <item>
-                    <layout class="QHBoxLayout" name="horizontalLayout_20">
-                     <item>
-                      <widget class="QLabel" name="label_8">
-                       <property name="text">
-                        <string>map's name:</string>
-                       </property>
-                      </widget>
-                     </item>
-                     <item>
-                      <widget class="QLineEdit" name="lineEdit"/>
-                     </item>
-                    </layout>
-                   </item>
-                   <item>
-                    <layout class="QHBoxLayout" name="horizontalLayout_21">
-                     <item>
-                      <widget class="QLabel" name="label_9">
-                       <property name="text">
-                        <string>saved map</string>
-                       </property>
-                      </widget>
-                     </item>
-                     <item>
-                      <widget class="QComboBox" name="comboBox_3">
-                       <item>
-                        <property name="text">
-                         <string>map1</string>
-                        </property>
-                       </item>
-                       <item>
-                        <property name="text">
-                         <string>map2</string>
-                        </property>
-                       </item>
-                       <item>
-                        <property name="text">
-                         <string>map3</string>
-                        </property>
-                       </item>
-                      </widget>
-                     </item>
-                    </layout>
-                   </item>
-                  </layout>
+                  <spacer name="verticalSpacer_4">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>188</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_10">
+                   <property name="text">
+                    <string>TextLabel</string>
+                   </property>
+                  </widget>
                  </item>
                 </layout>
                </widget>
@@ -687,7 +727,7 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>548</width>
+             <width>559</width>
              <height>674</height>
             </rect>
            </property>
@@ -705,7 +745,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1129</width>
+     <width>1151</width>
      <height>22</height>
     </rect>
    </property>

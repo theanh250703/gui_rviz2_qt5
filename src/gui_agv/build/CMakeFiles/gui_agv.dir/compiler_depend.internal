@@ -3351,7 +3351,8 @@ CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListView
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h
@@ -3396,4 +3397,9 @@ CMakeFiles/gui_agv.dir/src/mainwindow.cpp.o
  /opt/ros/humble/include/rviz_common/rviz_common/tool.hpp
  /opt/ros/humble/include/rviz_common/rviz_common/view_manager.hpp
  /opt/ros/humble/include/rviz_common/rviz_common/view_controller.hpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
 
